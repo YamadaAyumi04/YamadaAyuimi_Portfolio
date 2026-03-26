@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Travel - アートで世界を旅する</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header>
+    <nav>
+      <h1 class="logo"><a href="index.html">Art Travel</a></h1>
+      <ul>
+        <li><a href="index.html">トップページ</a></li>
+        <li><a href="map.html">地図から探す</a></li>
+        <li><a href="country.html">国一覧</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- メイン写真セクション -->
+  <section class="main-visual">
+    <img src="世界地図 .jpg" alt="メインアート写真">
+    <div class="catch-copy">
+      <h2>世界をアートで旅する</h2>
+      <a href="map.html" class="btn btn-position">地図で探す🔍</a>
+    </div>
+  </section>
+
+  <!-- 今日の一枚 -->
+  <section class="today-art">
+    <h2 class="section-title">今日の一枚</h2>
+    <img src="ita_Judgment of Paris.jpg" alt="今日のアート作品">
+    <a href="detail.html?id=judgment-of-paris" class="btn">作品詳細へ</a>
+  </section>
+
+  <!-- おすすめの目的地 -->
+  <section class="recommended">
+    <h2 class="section-title">おすすめの目的地</h2>
+    <div class="grid">
+
+      <a href="country.html#italy" class="country-card">
+        <img src="ita_Judgment of Paris.jpg" alt="Italy">
+        <p>アートで見るイタリア</p>
+      </a>
+
+      <a href="country.html#japan" class="country-card">
+        <img src="jpn_Young Women Visiting a Shinto Shrine.jpg" alt="Japan">
+        <p>アートで見る日本</p>
+      </a>
+
+      <a href="country.html#egypt" class="country-card">
+        <img src="egy_Desert Hunting Scene.jpg" alt="Egypt">
+        <p>アートで見るエジプト</p>
+      </a>
+
+      <a href="country.html#usa" class="country-card">
+        <img src="ame_Ethel Barrymore, from the Actresses series (T1), distributed by the American Tobacco Co. to promote Turkish Trophies Cigarettes.jpg" alt="America">
+        <p>アートで見るアメリカ</p>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer>
+    <div class="sns-icons">
+      <a href="#"><img src="icons/instagram.jpg" alt="Instagram"></a>
+      <a href="#"><img src="icons/facebook.jpg" alt="Facebook"></a>
+      <a href="#"><img src="icons/x.jpg" alt="X"></a>
+    </div>
+    <ul class="legal-links">
+      <li><a href="#">会社概要</a></li>
+      <li><a href="#">プライバシーポリシー</a></li>
+      <li><a href="#">特定商取引法に基づく表記</a></li>
+    </ul>
+    <p class="copyright">© 2025 Art Travel. All Rights Reserved.</p>
+  </footer>
+
+  <!-- トップへ戻るボタン -->
+  <button class="scroll-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+    ↑ トップへ戻る
+  </button>
+
+</body>
+</html>
